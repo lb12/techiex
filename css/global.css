@@ -8,3 +8,61 @@
 * {
   font-family: Quicksand;
 }
+
+/* Background linear-gradient */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.background {
+    height: 100%;
+    background-image: linear-gradient(#272424 3%, #ffffff 250%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Needed if we use scroll down */
+}
+
+
+/* Logo section */
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;    
+    color: #0080ff; /* --  color: #1E368A; */
+    text-shadow: 3px 3px #000000;
+    user-select: none;
+}
+
+.logo-letter {
+    font-family: Bebas-Neue;
+    align-items: center
+}
+
+.letter-t-logo {   
+    font-size: 100px;
+}
+.letter-e-logo {   
+    font-size: 90px;
+    margin-top:2px;
+}
+.letter-c-logo {    
+    font-size: 85px;
+    margin-top:2px;
+}
+.letter-h-logo {    
+    font-size: 80px;
+    margin-top: 4px;
+}
+.letter-i-logo {    
+    font-size: 85px;
+    margin-top:2px;
+}
+.letter-x-logo {   
+    font-size: 100px;
+}
