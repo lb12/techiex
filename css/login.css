@@ -26,17 +26,14 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: 0;    
-    color: #0080ff; /*  color: #1E368A; */
+    color: #0080ff; /* --  color: #1E368A; */
     text-shadow: 3px 3px #000000;
+    user-select: none;
 }
 
 .logo-letter {
     font-family: Bebas-Neue;
     align-items: center
-}
-
-:root {
-    --logo-leter-rate: 1px;
 }
 
 .letter-t-logo {   
@@ -151,4 +148,8 @@ h1 {
     box-shadow: 0 1px 0 rgba(0,0,0,.55);
     margin-top: 50px;
     cursor: pointer;
+}
+
+.form-submit-button:hover {
+    background-color: #42a1ff;
 }
