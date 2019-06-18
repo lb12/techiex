@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/cover.css" />
 </head>
 <body>
-    <main class="background">
-        <nav class="main-menu flex fixed-navbar">
-            <section class="logo-section flex">
+    <div class="background">
+        <nav class="main-menu">
+            <section class="logo-section">
                 <span class="logo-letter letter-t-logo">T</span>
                 <span class="logo-letter letter-e-logo">E</span>
                 <span class="logo-letter letter-c-logo">C</span>
@@ -23,23 +23,27 @@
                 <span class="logo-letter letter-e-logo">E</span>
                 <span class="logo-letter letter-x-logo">X</span>
             </section>
-            <section class="categories flex">
-                <!-- Un menú superior, que debe incluir el logotipo de la plataforma, opciones
-                    para acceder a la sección de novedades, series, películas o favoritos, un
-                    formulario de búsqueda y la opción para cerrar la sesión. 
-                -->
-                <a href="" class="category-a">News</a>
-                <a href="" class="category-a">Series</a>
-                <a href="" class="category-a">Movies</a>
-                <a href="" class="category-a">Favorites</a>
+            <section class="categories-search-section">
+                <section class="categories">
+                    <!-- Un menú superior, que debe incluir el logotipo de la plataforma, opciones
+                        para acceder a la sección de novedades, series, películas o favoritos, un
+                        formulario de búsqueda y la opción para cerrar la sesión. 
+                    -->
+                    <ul>
+                        <li><a href="" class="category-a">News</a></li>
+                        <li><a href="" class="category-a">Series</a></li>
+                        <li><a href="" class="category-a">Movies</a></li>
+                        <li><a href="" class="category-a">Favorites</a></li>
+                    </ul>
+                </section>
+                <section class="menu-searchbox-sign-out">
+                    <form action="">
+                        <input type="text" name="" id="" class="search-box" placeholder="Search">
+                    </form>
+                    <input type="button" class="sign-out-button" value="Sign out">
+                </section>
             </section>
-            <section class="menu-searchbox-sign-out flex">
-                <form action="">
-                    <input type="text" name="" id="" class="search-box" placeholder="Search">
-                </form>
-                <input type="button" class="sign-out-button" value="Sign out">
-            </section>         
-        </nav>
-    </main>
+        </nav>   
+    </div>
 </body>
 </html>

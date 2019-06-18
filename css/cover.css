@@ -1,47 +1,53 @@
-
-.flex {
-    display: flex;
-}
-
-/* Menu */
-
 .main-menu {
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
-}
-
-.fixed-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 0rem 1.5rem;
+    background-color: #00000048;
 }
 
 .logo-section {
-    margin-left: 40px;
+    margin: 0 1rem 0 0;
 }
 
+.logo-letter {
+    position: relative;
+    top: 5px;
+}
+
+.categories-search-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.categories > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
 .category-a {
     color: #FFF;
     text-decoration: none;
-    padding: 30px;
+    padding: 50px 15px;
 }
 
 .category-a:hover {
     background-color: #0080ff;
+    color: #FFF;
     font-weight: bold;
 }
 
 .menu-searchbox-sign-out {
-    margin-right: 40px;
+    display: flex;
 }
 
 .search-box {
     height: 40px;
-    width: 20vw;
-    margin-right: 2vw;
+    width: 12rem;
+    margin: 0 1.5rem;
     border-style: unset;
     border-radius: 5px;
     padding: 15px;    
@@ -52,7 +58,7 @@
 }
 
 .sign-out-button {
-    width: 7vw;
+    width: 6rem;
     background-color: #0080ff;
     color: #FFF;
     border: 0;
@@ -67,3 +73,4 @@
 .sign-out-button:hover {
     background-color: #42a1ff;
 }
+
