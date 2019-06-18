@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TECHIEX</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TECHIEX Login</title>
 
     <!-- CSS references -->
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/index.css" />
-</head>
-<body>
+  </head>
+  <body>
     <main class="background">
-        <nav class="main-menu flex fixed-navbar">
-            <section class="logo-section flex">
-                <span class="logo-letter letter-t-logo">T</span>
-                <span class="logo-letter letter-e-logo">E</span>
-                <span class="logo-letter letter-c-logo">C</span>
-                <span class="logo-letter letter-h-logo">H</span>
-                <span class="logo-letter letter-i-logo">I</span>
-                <span class="logo-letter letter-e-logo">E</span>
-                <span class="logo-letter letter-x-logo">X</span>
-            </section>
-            <section class="categories flex">
-                <!-- Un menú superior, que debe incluir el logotipo de la plataforma, opciones
-                    para acceder a la sección de novedades, series, películas o favoritos, un
-                    formulario de búsqueda y la opción para cerrar la sesión. 
-                -->
-                <a href="" class="category-a">News</a>
-                <a href="" class="category-a">Series</a>
-                <a href="" class="category-a">Movies</a>
-                <a href="" class="category-a">Favorites</a>
-            </section>
-            <section class="menu-searchbox-sign-out flex">
-                <form action="">
-                    <input type="text" name="" id="" class="search-box" placeholder="Search">
-                </form>
-                <input type="button" class="sign-out-button" value="Sign out">
-            </section>         
-        </nav>
+        <section class="logo-section">
+            <span class="logo-letter letter-t-logo">T</span>
+            <span class="logo-letter letter-e-logo">E</span>
+            <span class="logo-letter letter-c-logo">C</span>
+            <span class="logo-letter letter-h-logo">H</span>
+            <span class="logo-letter letter-i-logo">I</span>
+            <span class="logo-letter letter-e-logo">E</span>
+            <span class="logo-letter letter-x-logo">X</span>
+        </section>
+        <section class="login-container">
+            <h1>Iniciar sesión</h1>
+            <form action="http://localhost:3000/cover.html" class="item login-form">
+                <input type="email" class="form-input" name="form-username" id="form-username" placeholder="Correo electrónico" required/>
+                <input type="password" class="form-input" name="form-password" id="form-password" placeholder="Contraseña" required/>
+                <div class="login-extra">
+                    <div>
+                        <input type="checkbox" class="form-remember" name="form-remember-me" id="form-remember-me" />
+                        <label for="form-remember-me" class="form-remember">Recordarme</label>
+                    </div>
+                    <a href="#">¿Necesitas ayuda?</a>
+                </div>
+                <input type="submit" class="form-submit-button" value="Iniciar sesión">
+            </form>
+        </section>
     </main>
-</body>
+  </body>
 </html>

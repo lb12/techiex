@@ -1,58 +1,89 @@
-
-.flex {
+.background {
     display: flex;
-}
-
-/* Menu */
-
-.main-menu {
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-}
-
-.fixed-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.logo-section {
-    margin-left: 40px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-.category-a {
+/* Login container section */
+.login-container {
+    /* Color base: rgba(10, 14, 27, 0.7);*/
+    background: rgba(10, 14, 27, 0.7);
+    border-radius: 5px;
+    height: 450px;
+    width: 400px;
+    margin: 70px;
+    box-shadow: 0px 0px 70px #272424;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.login-form {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    width: 75%;
+    margin: 20px 30px 30px 30px;
+}
+
+h1 {
+    margin-top: 50px;
     color: #FFF;
-    text-decoration: none;
-    padding: 30px;
 }
 
-.category-a:hover {
-    background-color: #0080ff;
-    font-weight: bold;
-}
-
-.menu-searchbox-sign-out {
-    margin-right: 40px;
-}
-
-.search-box {
+.form-input {
     height: 40px;
-    width: 20vw;
-    margin-right: 2vw;
+    width: 100%;
     border-style: unset;
     border-radius: 5px;
+    margin: 30px 0px 0px 0px;
     padding: 15px;    
 }
 
-.search-box:focus {
+.form-input:focus {
     outline: 0px;
 }
 
-.sign-out-button {
-    width: 7vw;
+.login-extra {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-remember {
+    vertical-align: middle;
+}
+
+.login-extra > div {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.login-extra > a {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    color: #0080ff ;
+}
+
+.login-extra > a:hover {
+    color: #59acff;
+}
+
+.form-submit-button {
+    width: 100%;
+    height: 48px;
     background-color: #0080ff;
     color: #FFF;
     border: 0;
@@ -61,9 +92,10 @@
     font-size: 16px;
     font-weight: 700;
     box-shadow: 0 1px 0 rgba(0,0,0,.55);
+    margin-top: 50px;
     cursor: pointer;
 }
 
-.sign-out-button:hover {
+.form-submit-button:hover {
     background-color: #42a1ff;
 }
