@@ -9,21 +9,13 @@
   font-family: Quicksand;
 }
 
-/* Background linear-gradient */
+/* Background */
 
 
-html, body {
-    height: 100%;
-    overflow-x: hidden;
+body {
+    background-color: #272424;
+    color: #fff;
 }
-
-.background {
-    height: 100%;
-    background-image: linear-gradient(#272424 3%, #ffffff 250%);
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Needed if we use scroll down */
-}
-
 
 /* Logo section */
 
