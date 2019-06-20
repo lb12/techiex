@@ -105,34 +105,75 @@
 }
 
 .header-movie-buttons {
-    display: inline-flex;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-/* TODO: Boton de play */
+.header-movie-buttons a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-buttons { 
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border-radius: .2rem;
+    color: #0080ff;
+    box-shadow: 2px 3px gray;
+}
+
+.header-movie-big-buttons {
+    flex: 1;
+}
+
 .play-movie-button {
-    
+    background-image: url(../img/icon/play-button.png);
+    background-size: 1.2rem;
+    background-position: .5rem .5rem;
+    padding: .5rem .8rem .5rem 2.7rem;
 }
 
-/* TODO: Boton de añadir a la lista */
 .add-movie-button {
-    
+    background-image: url(../img/icon/add-button.png);
+    background-size: 1.2rem;
+    background-position: .5rem .5rem;
+    padding: .5rem .8rem .5rem 2.7rem;
+    margin-left: 1.5rem;
 }
 
 .header-movie-likes-buttons {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    margin-top: 0.4rem;
 }
 
-/* TODO: Boton de like */
 .like-movie-button {
-    
+    background-image: url(../img/icon/like.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 2.3rem;
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
-/* TODO: Boton de dislike */
+.like-movie-button:hover {
+    background-image: url(../img/icon/like_h.png);
+}
+
 .dislike-movie-button {
-    
+    background-image: url(../img/icon/dislike.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 2.3rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0 1.5rem;   
+}
+
+.dislike-movie-button:hover {
+    background-image: url(../img/icon/dislike_h.png);
 }
 
 /* END: Header */ 
@@ -174,6 +215,8 @@
 .footer hr {
     width: 2rem;
     margin: 0 0 .8rem 0;
+    border: 0;
+    border-top: .1rem solid;
 }
 
 .footer-about, .footer-links, .footer-social {
