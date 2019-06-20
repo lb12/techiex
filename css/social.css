@@ -1,0 +1,36 @@
+.social-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 2.5rem;    
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+
+.social-facebook {
+    background-image: url(../img/icon/social/lineal-facebook.png);
+}
+.social-facebook:hover {
+    background-image: url(../img/icon/social/flat-facebook.png);
+}
+
+.social-twitter {
+    background-image: url(../img/icon/social/lineal-twitter.png);
+}
+.social-twitter:hover {
+    background-image: url(../img/icon/social/flat-twitter.png);
+}
+
+.social-youtube {
+    background-image: url(../img/icon/social/lineal-youtube.png);
+}
+.social-youtube:hover {
+    background-image: url(../img/icon/social/flat-youtube.png);
+}
+
+.social-instagram {
+    background-image: url(../img/icon/social/lineal-instagram.png);
+}
+.social-instagram:hover {
+    background-image: url(../img/icon/social/flat-instagram.png);
+}
