@@ -23,15 +23,15 @@ body {
 
 .logo-section {
     display: flex;
-    margin: 0;    
+    justify-content: center;
     color: #0080ff; /* --  color: #1E368A; */
     text-shadow: 3px 3px #000000;
     user-select: none;
+    margin: 4.5rem 0;
 }
 
 .logo-letter {
     font-family: Bebas-Neue;
-    align-items: center
 }
 
 .letter-t-logo {   
