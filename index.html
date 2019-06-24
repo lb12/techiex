@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Techiex</title>
 
@@ -17,24 +17,24 @@
     <h1 class="logo-letter">TECHIEX</h1>
   </header>
   <main>
-    <section>
+    <section class="sign-in-container">
       <header>
-        Sign in
+        <h1 class="sign-in-title">
+          Sign in
+        </h1>
       </header>
-      <article>
-        <form action="cover.html">
-          <input type="email" class="form-text-input" placeholder="E-mail address" required>
-          <input type="password" class="form-text-input" placeholder="Password" required>
-          <div>
-            <div>
-              <input type="checkbox" name="" id="">
-              <label for="">Remember me</label>
-            </div>
-            <a href="#">Need help?</a>
+      <form action="cover.html">
+        <input type="email" class="form-text-input" placeholder="E-mail address" required>
+        <input type="password" class="form-text-input" placeholder="Password" required>
+        <div class="login-extra">
+          <div class="login-remember-container">
+            <input type="checkbox" name="" id="remember-checkbox" class="remember-item" style="vertical-align: middle;">
+            <label for="remember-checkbox" class="remember-item remember-label">Remember me</label>
           </div>
-          <input type="submit" value="Sign in">
-        </form>
-      </article>
+          <a href="#" class="need-help">Need help?</a>
+        </div>
+        <input type="submit" class="submit-button" value="Sign in">
+      </form>
     </section>
   </main>
 </body>

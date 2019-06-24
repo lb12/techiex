@@ -27,13 +27,13 @@ body {
     color: #0080ff; /* --  color: #1E368A; */
     text-shadow: 3px 3px #000000;
     user-select: none;
-    margin: 4.5rem 0;
+    margin: 4.5rem 0 3rem 0;
 }
 
 .logo-letter {
     font-family: Bebas-Neue;
     margin: 0;
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: 0.2rem;
 }
 /* Give letters a Netflix style (test it)...
