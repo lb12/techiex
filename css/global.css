@@ -1,3 +1,5 @@
+/* Fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
 @font-face {
@@ -9,12 +11,20 @@
   font-family: Quicksand;
 }
 
+/* Variables */
+:root {
+    --background-color: #272424;
+    --letter-color: #fff;
+    --main-color: #0080ff;
+    --hover-color: #42a1ff;
+}
+
 
 /* START: Background */
 
 body {
-    background-color: #272424;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--letter-color);
 }
 
 /* END: Background */
@@ -24,7 +34,7 @@ body {
 .logo-section {
     display: flex;
     justify-content: center;
-    color: #0080ff; /* --  color: #1E368A; */
+    color: var(--main-color); /* --  color: #1E368A; */
     text-shadow: 3px 3px #000000;
     user-select: none;
     margin: 4.5rem 0 3rem 0;

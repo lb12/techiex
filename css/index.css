@@ -8,7 +8,7 @@
 }
 
 .sign-in-title {
-    margin: 0;
+    margin: 2rem 0 0 0;
 }
 
 form {
@@ -46,9 +46,13 @@ form {
 .login-extra > a {
     font-size: .9rem;
     text-decoration: none;
-    color: #0080ff;
+    color: var(--main-color);
     font-style: italic;
     cursor: pointer;
+}
+
+.login-extra > a:hover {
+    color: var(--hover-color);
 }
 
 .remember-item {
@@ -59,13 +63,18 @@ form {
     width: 80%;
     padding: 1rem;
     margin: 5rem 0 1rem 0;
-    background-color: #0080ff;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--letter-color);
     border: 0;
     text-align: center;
     border-radius: .5rem;
     font-size: 1rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: var(--hover-color);
 }
 
 
@@ -102,16 +111,23 @@ form {
 }
 
 /* ~Desktop */
-@media all and (min-width: 1024px) {
+@media all and (min-width: 839px) {
     .logo-letter {
         font-size: 8rem;
     }
     
     form {
-        width: 70%;
+        width: 60%;
     }
 
     .form-text-input {
         height: 3.25rem;
+    }
+}
+
+/* ~Large Desktop */
+@media all and (min-width: 1024px) {
+    form {
+        width: 45%;
     }
 }
