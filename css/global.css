@@ -32,8 +32,11 @@ body {
 
 .logo-letter {
     font-family: Bebas-Neue;
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
 }
-
+/* Give letters a Netflix style (test it)...
 .letter-t-logo {   
     font-size: 100px;
 }
@@ -56,5 +59,6 @@ body {
 .letter-x-logo {   
     font-size: 100px;
 }
+*/
 
 /* END: Logo section */
