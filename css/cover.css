@@ -128,7 +128,7 @@
     background-color: #1b1b1b;
     width: 100%;
     padding-bottom: 2.5rem;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .footer aside {
@@ -281,7 +281,6 @@
     .footer {
         width: auto;
         margin-left: 30vw;
-        font-size: 1rem;
     }
 
     .footer aside {
