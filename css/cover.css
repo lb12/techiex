@@ -395,6 +395,10 @@
         margin-right: 0rem;
     }
 
+    .footer-social {
+        margin-right: 1.5rem;
+    }
+
     .footer h2 {
         font-size: 1.7em;
     }
@@ -409,10 +413,11 @@
 
     .form-newsletter {
         margin-top: .8rem;
+        width: 100%;
     }
 
     .newsletter-input {
-        width: 15rem;
+        margin-left: 2rem;
     }
 
     .newsletter-submit {
