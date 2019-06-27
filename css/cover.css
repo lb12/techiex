@@ -344,6 +344,11 @@
 @media all and (min-width: 480px) {
 
     /* START: NAV */
+
+    .navbar {
+        background-color: #1d1d1f;
+    }
+
     .menu-mobile-button {
         display: none;
     }
@@ -417,6 +422,7 @@
 
     .navbar {
         height: 12vh;
+        background-color: #1d1d1fdc;
     }
 
     .logo-letter {
