@@ -417,10 +417,11 @@
 
     .newsletter-input {
         margin-left: 2rem;
+        width: 46%;
     }
 
     .newsletter-submit {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 
     .social-list {
