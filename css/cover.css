@@ -361,6 +361,21 @@
 
     /* END: NAV */
 
+
+    /* START: HEADER */
+
+    .header {
+        width: auto;
+        margin-left: 30vw;
+    }
+
+    .header-buttons {
+        justify-content: space-evenly;
+    }
+
+    /* END: HEADER */
+
+
     /* START: FOOTER */
     .footer {
         width: auto;
