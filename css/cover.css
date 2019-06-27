@@ -185,10 +185,12 @@
 }
 
 .like-movie-button {
+    background-color: unset;
     background-image: url(../img/icon/like_h.png);
 }
 
 .dislike-movie-button {
+    background-color: unset;
     background-image: url(../img/icon/dislike_h.png);
 }
 
@@ -355,6 +357,10 @@
         margin-left: 1.5rem;
     }
 
+    .logo-letter {
+        font-size: 3.5rem;
+    }
+
     #search-box {
         width: 10rem;
     }
@@ -365,7 +371,6 @@
     /* START: HEADER */
 
     .header {
-        width: auto;
         margin-left: 30vw;
     }
 
@@ -409,6 +414,11 @@
 
 @media all and (min-width: 839px) {
     /* START: NAV */
+
+    .navbar {
+        height: 12vh;
+    }
+
     .logo-letter {
         font-size: 4rem;
     }
@@ -474,6 +484,64 @@
     }
 
     /* END: NAV */
+
+
+    /* START: HEADER */
+
+    .header {
+        margin-left: 0;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .header > section {
+        align-items: flex-start;
+        max-width: 35vw;
+        margin-left: 3rem;
+    }
+
+    .main-movie-title {
+        letter-spacing: 1rem;
+        margin-right: unset;
+    }
+    
+    .sinopsis-cite {
+        text-align: start;
+    }
+
+    .add-movie-button {
+        padding-right: .7rem;
+        font-size: 1rem;
+    }
+
+    .play-movie-button {
+        margin-left: 1rem;
+        padding-right: 1rem;
+        padding-left: 2.3rem;
+        background-size: 1.2rem;
+        background-position-x: .8rem;
+    }
+
+    .like-movie-button {
+        background-image: url(../img/icon/like.png);
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+
+    .like-movie-button:hover {
+        background-image: url(../img/icon/like_h.png);
+    }
+    
+    .dislike-movie-button {
+        background-image: url(../img/icon/dislike.png);
+    }
+    
+    .dislike-movie-button:hover {
+        background-image: url(../img/icon/dislike_h.png);
+    }
+
+    /* END: HEADER */
+
 
     /* START: FOOTER */
     .footer {
