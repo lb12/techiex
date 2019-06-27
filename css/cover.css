@@ -201,13 +201,6 @@
 /* END: HEADER */
 
 /* START: MAIN */
-.main-container {
-    /* margin-left: 1.5rem;
-    margin-right: 1.5rem; */
-}
-
-#news-section {   
-}
 
 .main-section-title {
     margin: 1.5rem;
@@ -542,6 +535,10 @@
     
     .sinopsis-cite {
         text-align: start;
+    }
+
+    .header-buttons {
+        justify-content: flex-start;
     }
 
     .add-movie-button {
