@@ -148,7 +148,10 @@
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
+}
 
+.header-buttons a {
+    text-decoration: none;
 }
 
 .header-item {
@@ -198,10 +201,19 @@
 /* END: HEADER */
 
 /* START: MAIN */
-.alto2 {
-    height: 100px;
-    background-color: transparent;
+#news-section {   
+    background-color: #0080ff;   
 }
+
+.news-container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.main-section-title {
+    margin: 0;
+}
+
 
 /* END: MAIN */
 
