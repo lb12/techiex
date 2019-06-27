@@ -106,7 +106,7 @@
 /* START: HEADER */
 .header {
     height: 80vh;
-    background-image: url(../img/matrix.jpg);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.185), rgba(0, 0, 0, 0.73)), url(../img/matrix.jpg);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -201,17 +201,34 @@
 /* END: HEADER */
 
 /* START: MAIN */
-#news-section {   
-    background-color: #0080ff;   
+.main-container {
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
 }
 
-.news-container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+#news-section {   
 }
 
 .main-section-title {
-    margin: 0;
+    margin: 1.5rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-card {
+    flex-basis: 50%;
+    border: .1rem solid var(--letter-color);
+}
+
+.item-carousel {
+    width: 100%;
+    height: 100%;
 }
 
 
