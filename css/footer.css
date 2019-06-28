@@ -1,0 +1,244 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b1b1b;
+    width: 100%;
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+.footer aside {
+    max-width: 90vw;
+    width: 100%;
+}
+
+.footer h2 {
+    color: var(--main-color);
+    text-align: center;
+}
+
+
+.footer-about {
+    text-align: justify;
+}
+
+.about-us-desc {
+    margin-bottom: 0;
+}
+
+.links-list-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin-bottom: .5rem;
+}
+
+.links-list a {
+    text-decoration: none;
+    color: var(--letter-color);
+}
+
+.links-list a:hover {
+    color: var(--hover-color);
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.newsletter-input {
+    height: 2rem;
+    width: 10rem;
+    border-style: unset;
+    border-radius: .2rem;
+    padding: 1rem;
+}
+
+.newsletter-submit {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    background-color: var(--main-color);
+    color: var(--letter-color);
+    border: 0;
+    border-radius: .2rem;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.newsletter-submit:hover {
+    background-color: var(--hover-color);
+}
+
+.social-list {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.social-list li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.social-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 2.5rem;    
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.social-facebook {
+    background-image: url(../img/icon/social/flat-facebook.png);
+}
+
+.social-twitter {
+    background-image: url(../img/icon/social/flat-twitter.png);
+}
+
+.social-youtube {
+    background-image: url(../img/icon/social/flat-youtube.png);
+}
+
+.social-instagram {
+    background-image: url(../img/icon/social/flat-instagram.png);
+}
+
+
+/* Media queries */
+
+/* ~Tablet */
+@media all and (min-width: 480px) {
+    .footer {
+        width: auto;
+        margin-left: 30vw;
+    }
+
+    .footer aside {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .links-list li {
+        margin-bottom: 1rem;
+    }
+
+    .newsletter-input {
+        height: 2.5rem;
+        width: 13rem;
+        font-size: .9rem;
+    }
+
+    .newsletter-submit {
+        width: 6rem;
+        height: 2.4rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+
+/* ~Desktop */
+@media all and (min-width: 839px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer aside {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+    }
+
+    .footer-social {
+        margin-right: 1.5rem;
+    }
+
+    .footer h2 {
+        font-size: 1.7em;
+    }
+
+    .links-list-container {
+        margin-top: 1rem;
+    }
+
+    .links-list li {
+        margin-bottom: 1.2rem;
+    }
+
+    .form-newsletter {
+        margin-top: .8rem;
+        width: 100%;
+    }
+
+    .newsletter-input {
+        margin-left: 2rem;
+        width: 46%;
+    }
+
+    .newsletter-submit {
+        margin-left: 1.5rem;
+    }
+
+    .social-list {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .social-facebook {
+        background-image: url(../img/icon/social/lineal-facebook.png);
+    }
+    .social-facebook:hover {
+        background-image: url(../img/icon/social/flat-facebook.png);
+    }
+
+    .social-twitter {
+        background-image: url(../img/icon/social/lineal-twitter.png);
+    }
+    .social-twitter:hover {
+        background-image: url(../img/icon/social/flat-twitter.png);
+    }
+
+    .social-youtube {
+        background-image: url(../img/icon/social/lineal-youtube.png);
+    }
+    .social-youtube:hover {
+        background-image: url(../img/icon/social/flat-youtube.png);
+    }
+
+    .social-instagram {
+        background-image: url(../img/icon/social/lineal-instagram.png);
+    }
+    .social-instagram:hover {
+        background-image: url(../img/icon/social/flat-instagram.png);
+    }
+}
