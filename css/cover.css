@@ -532,6 +532,25 @@
     /* END: NAV */
 
 
+        /* START: MAIN */
+
+        .main {
+            margin-left: unset;
+        }
+
+        .flex-card {
+            flex-basis: 25%;
+        }
+
+        .carousel-container {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 1.5rem;
+        }
+
+    /* END: MAIN */
+
+
     /* START: HEADER */
 
     .header {
