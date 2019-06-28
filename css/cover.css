@@ -157,61 +157,11 @@
         }
 
     /* END: MAIN */
-
-
-    /* START: FOOTER */
-
-    .footer {
-        width: auto;
-        margin-left: 30vw;
-    }
-
-    .footer aside {
-        max-width: 90%;
-        width: 100%;
-    }
-
-    .links-list li {
-        margin-bottom: 1rem;
-    }
-
-    .newsletter-input {
-        height: 2.5rem;
-        width: 13rem;
-        font-size: .9rem;
-    }
-
-    .newsletter-submit {
-        width: 6rem;
-        height: 2.4rem;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-    /* END: FOOTER */
 }
 
 
 /* ~Desktop */
 @media all and (min-width: 839px) {
-    /* START: MAIN */
-
-    .main {
-        margin-left: unset;
-    }
-
-    .flex-card {
-        flex-basis: 25%;
-    }
-
-    .carousel-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 1.5rem;
-    }
-
-    /* END: MAIN */
-
 
     /* START: HEADER */
 
@@ -272,4 +222,22 @@
     }
 
     /* END: HEADER */    
+
+    /* START: MAIN */
+
+    .main {
+        margin-left: unset;
+    }
+
+    .flex-card {
+        flex-basis: 25%;
+    }
+
+    .carousel-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1.5rem;
+    }
+
+    /* END: MAIN */
 }
