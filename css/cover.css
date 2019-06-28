@@ -410,6 +410,14 @@
 
     /* END: HEADER */
 
+    /* START: MAIN */
+    
+        .main {
+            margin-left: 30vw;
+        }
+
+    /* END: MAIN */
+
 
     /* START: FOOTER */
     .footer {
