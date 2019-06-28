@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Techiex</title>
+
+  <!-- CSS references -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/detail.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+
+</head>
+<body>
+    <nav class="navbar">
+        <picture>
+            <img src="img/icon/hamburger.png" alt="menu" id="burger-button" class="menu-mobile-button">                
+        </picture>
+        <input type="checkbox" name="" id="check" class="menu-mobile-button">
+        <div class="logo-section">
+            <h1 class="logo-letter">TECHIEX</h1>
+        </div>        
+        <div class="categories-container">
+            <ul class="categories">
+                <li class="category">
+                    <a href="#news-section">News</a>
+                </li>
+                <li class="category">
+                    <a href="#series-section">Series</a>
+                </li>
+                <li class="category">
+                    <a href="#movies-section">Movies</a>
+                </li>
+                <li class="category">
+                    <a href="#favorites-section">Favorites</a>
+                </li>
+                <li class="category">
+                    <form action="" id="sign-out-form">
+                        <input type="submit" class="sign-out-button" value="Sign out">
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <form action="" method="get" class="search-form">
+                <input type="text" name="search-query" id="search-box" placeholder="Search">
+        </form>
+        <form action="" class="sign-out-desktop-form">
+            <input type="submit" class="sign-out-button-desktop" value="Sign out">
+        </form>
+    </nav>
+
+    <main class="main">
+        <section>
+            <h1 class="main-movie-title">MATRIX</h1>
+            <div class="year-score-container">
+                <span class="main-movie-year">1999</span>
+                <span class="main-movie-score">9</span>
+            </div>
+            <p class="main-movie-sinopsis">Thomas Anderson is a brilliant programmer of a respectable software company. However, out of the office he is Neo, a hacker that any day receives a misterious visit...</p>
+            <p class="movie-stars-container">Stars: <span class="main-movie-stars">Keanu Reeves, Carrie-Anne Moss, Laurence Fishburne</span></p>
+            <div class="main-buttons">
+                <a href="">
+                    <span class="main-item add-movie-button">
+                        My list
+                    </span>
+                </a>
+                <a href="">
+                    <span class="main-item like-buttons like-movie-button"></span>                    
+                </a>
+                <a href="">
+                    <span class="main-item like-buttons dislike-movie-button"></span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <aside class="footer-about">
+            <h2>About us</h2>
+            <p class="about-us-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur quas sapiente labore dignissimos maxime unde, autem odio voluptates deleniti tempora excepturi ad provident fugiat nobis beatae. Incidunt, atque reprehenderit.Reprehenderit dignissimos quos vitae commodi ut consectetur autem! Quaerat quo soluta voluptatum dolorem recusandae. Natus exercitationem nisi laboriosam, cum aperiam, qui voluptatem dolor debitis ut odit facere, totam distinctio minima.
+            </p>
+        </aside>
+        <aside class="footer-links">
+            <h2>Navigate</h2>
+            <div class="links-list-container">
+                <ul class="links-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul class="links-list">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Affliates</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul> 
+            </div>
+        </aside>
+        <aside class="footer-social">
+            <h2>Stay in contact</h2>
+            <form action="" class="form-newsletter">
+                <label for="">Subscribe to our newsletter</label>
+                <div class="newsletter-container">
+                    <input type="text" name="" id="" class="newsletter-input" placeholder="Email address">
+                    <input type="submit" class="newsletter-submit" value="Subscribe">
+                </div>
+            </form>
+            <ul class="social-list">
+                <li><a href="#"><i class="social-icon social-facebook"></i></a></li>
+                <li><a href="#"><i class="social-icon social-twitter"></i></a></li>
+                <li><a href="#"><i class="social-icon social-youtube"></i></a></li>
+                <li><a href="#"><i class="social-icon social-instagram"></i></a></li>
+            </ul>
+        </aside>
+    </footer>
+</body>
+</html>
