@@ -9,12 +9,35 @@
 .main > section {
     width: 100%;
     height: 100%;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    /* margin-right: 1.5rem;
+    margin-left: 1.5rem; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
+}
+
+.main-video-container {
+    width: 100%;
+    flex-basis: 50%;
+    position: relative;
+    /* background-color: red; */
+    margin-top: 4rem;
+    z-index: -1;
+}
+
+.main-video-container > video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-movie-info {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    flex-basis: 50%;
 }
 
 .main-movie-title {
@@ -31,6 +54,15 @@
     margin-bottom: .5rem;
 }
 
+.main-movie-score {
+    vertical-align: middle;
+}
+
+.score-star {
+    width: .9rem;
+    vertical-align: middle;
+}
+
 .main-movie-sinopsis {
     font-size: .9rem;
     text-align: justify;
@@ -42,10 +74,19 @@
     margin-top: .5rem;
     font-size: .9rem;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.movie-stars-icon {
+    width: 2.3rem;
+    flex: 0 0 10%;
+    margin-right: 1rem;
 }
 
 .main-movie-stars {
     font-weight: normal;
+    flex: 1;
 }
 
 .main-buttons {

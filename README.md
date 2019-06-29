@@ -8,6 +8,8 @@ This project is part of the HTML & CSS3 Basics Final Practice.
 
 *Icons*:<br>
 * **Social media and (dis)like icons**: Smashicons
+* **Score star icon**: Freepik
+* **Movie stars icon**: Eucalyp
 
 *Movies cover*:<br>
 * **Matrix Header**: https://covers.alphacoders.com/cover/view/87546
