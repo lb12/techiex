@@ -1,5 +1,3 @@
-/* START: HEADER */
-
 .main {
     height: 100%;
     display: flex;
@@ -31,7 +29,6 @@
 .main-movie-info {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
-    flex-basis: 50%;
 }
 
 .main-movie-title {
@@ -138,54 +135,66 @@
     background-image: url(../img/icon/dislike_h.png);
 }
 
-/* END: HEADER */
 
 /* Media queries */
 
 /* ~Tablet */
 @media all and (min-width: 480px) {
-    /* START: HEADER */
-
     .main {
         margin-left: 30vw;
     }
-
-    .main-buttons {
-        justify-content: space-evenly;
-    }
-
-    /* END: HEADER */
 }
 
 
 /* ~Desktop */
 @media all and (min-width: 839px) {
-
-    /* START: HEADER */
-
     .main {
         margin-left: 0;
-        height: 100vh;
-        align-items: center;
     }
 
     .main > section {
-        align-items: flex-start;
-        max-width: 35vw;
-        margin-left: 3rem;
+        flex-direction: row-reverse;
+        margin-top: 4.6rem;
+        align-items: center;
+    }
+
+    .movie-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .main-video-container {
+        margin-top: 0;
+        padding: 1;
+    }
+
+    .main-movie-info {
+        max-width: 55vw;
     }
 
     .main-movie-title {
-        letter-spacing: 1rem;
-        margin-right: unset;
+        font-size: 2.5rem;
+    }
+
+    .year-score-container {
+        margin-bottom: 1.5rem;
+    }
+
+    .main-movie-sinopsis, 
+    .movie-info-container {
+        font-size: 1rem;
     }
     
-    .sinopsis-cite {
-        text-align: start;
+    .movie-info-container {
+        margin-top: 1.5rem;
     }
 
     .main-buttons {
         justify-content: flex-start;
+        margin-left: 3rem;
+        margin-top: 3rem;
     }
 
     .add-movie-button {
@@ -217,7 +226,5 @@
     
     .dislike-movie-button:hover {
         background-image: url(../img/icon/dislike_h.png);
-    }
-
-    /* END: HEADER */    
+    }   
 }
