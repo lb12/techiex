@@ -7,7 +7,7 @@ This project is part of the HTML & CSS3 Basics Final Practice.
 ## Credits
 
 *Icons*:<br>
-* **Social media and (dis)like icons**: Smashicons
+* **Social media, (dis)like, movie cast and movie award icons**: Smashicons
 * **Score star icon**: Freepik
 * **Movie stars icon**: Eucalyp
 
