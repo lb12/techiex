@@ -6,6 +6,7 @@
     position: fixed;
     background-color: #1d1d1fdc;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .logo-section {

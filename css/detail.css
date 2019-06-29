@@ -24,7 +24,6 @@
     /* background-color: red; */
     margin-top: 4rem;
     margin-bottom: 1rem;
-    z-index: -1;
 }
 
 .main-video-container > video {
@@ -51,8 +50,7 @@
 .year-score-container {
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .main-movie-score {
@@ -70,22 +68,22 @@
     margin: 0;
 }
 
-.movie-stars-container {
+.movie-info-container {
     margin: 0;
-    margin-top: .5rem;
+    margin-top: 1rem;
     font-size: .9rem;
     font-weight: bold;
     display: flex;
     align-items: center;
 }
 
-.movie-stars-icon {
+.movie-info-icon {
     width: 2.3rem;
     flex: 0 0 10%;
     margin-right: 1rem;
 }
 
-.main-movie-stars {
+.movie-info-text {
     font-weight: normal;
     flex: 1;
 }
