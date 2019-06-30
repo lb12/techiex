@@ -44,7 +44,12 @@
 
 .menu-mobile-button:checked ~ .categories-container {
     display: block;
+    
+    /* Animate lateral menu to right */
+    animation-name: slide_right;
+    animation-duration: .5s;
 }
+
 .search-form {
     display: flex;
     flex: 1;
@@ -66,6 +71,10 @@
 #search-box::placeholder {
     color: var(--letter-color);
     opacity: 1;
+}
+
+#secondary-search-form {
+    display: none;
 }
 
 .categories {
@@ -102,6 +111,43 @@
 
 
 /* Media queries */
+
+/* Search form dissapears of the top navbar and appears on left menu and logo is centered*/
+@media all and (max-width: 330px) { 
+    #main-search-form {
+        display: none;
+    }
+
+    #secondary-search-form {
+        display: flex;
+        flex: unset;
+        justify-content: flex-start;
+    }
+
+    #secondary-search-form > input[type='text'] {
+        width: 80%;
+        height: 2rem;
+        margin: 0;
+        border: 1px solid black;
+        padding: .5rem 0rem .5rem .5rem;
+        background-color: var(--letter-color);
+        color: var(--background-color);
+    }
+
+    #search-box::placeholder {
+        color: var(--background-color);
+        opacity: 1;
+    }
+
+    .logo-section {
+        margin-left: 0;
+        width: 100%;        
+    }
+
+    .logo-letter {
+        font-size: 2.8rem;
+    }
+}
 
 /* ~Tablet */
 @media all and (min-width: 480px) {
@@ -206,6 +252,7 @@
     }
 }
 
+/* RWD of navbar and don't let items wrap */
 @media all and (min-width: 991px) {
     .category a {
         padding: 1.8rem 1.5rem 1.5rem 1.5rem;

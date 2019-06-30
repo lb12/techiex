@@ -9,6 +9,7 @@
   <!-- CSS references -->
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/animations.css" />
   <link rel="stylesheet" href="css/navbar.css" />
   <link rel="stylesheet" href="css/detail.css" />
   <link rel="stylesheet" href="css/carousel.css" />
@@ -39,14 +40,19 @@
                     <a href="home.html#favorites-section">Favorites</a>
                 </li>
                 <li class="category">
+                    <form action="" id="secondary-search-form" class="search-form">
+                        <input type="text" name="search-query" id="search-box" placeholder="Search">
+                    </form>
+                </li>
+                <li class="category">
                     <form action="" id="sign-out-form">
                         <input type="submit" class="sign-out-button" value="Sign out">
                     </form>
                 </li>
-            </ul>
+            </ul>            
         </div>
-        <form action="" method="get" class="search-form">
-                <input type="text" name="search-query" id="search-box" placeholder="Search">
+        <form action="" method="get" id="main-search-form" class="search-form">
+            <input type="text" name="search-query" id="search-box" placeholder="Search">
         </form>
         <form action="" class="sign-out-desktop-form">
             <input type="submit" class="sign-out-button-desktop" value="Sign out">
@@ -220,7 +226,7 @@
         <aside class="footer-social">
             <h2>Stay in contact</h2>
             <form action="" class="form-newsletter">
-                <label for="">Subscribe to our newsletter</label>
+                <span for="">Subscribe to our newsletter</span>
                 <div class="newsletter-container">
                     <input type="text" name="" id="" class="newsletter-input" placeholder="Email address">
                     <input type="submit" class="newsletter-submit" value="Subscribe">
