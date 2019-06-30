@@ -5,11 +5,11 @@
 
 @font-face {
     src: url('../fonts/BebasNeue-Regular.ttf');
-    font-family: Bebas-Neue;
+    font-family: 'Bebas-Neue';
 }
 
 * {
-  font-family: Quicksand;
+  font-family: 'Quicksand';
 }
 
 /* Variables */
@@ -42,7 +42,7 @@ body {
 }
 
 .logo-letter {
-    font-family: Bebas-Neue;
+    font-family: 'Bebas-Neue';
     margin: 0;
     font-size: 5rem;
     letter-spacing: 0.2rem;
