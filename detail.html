@@ -39,14 +39,19 @@
                     <a href="home.html#favorites-section">Favorites</a>
                 </li>
                 <li class="category">
+                    <form action="" id="secondary-search-form" class="search-form">
+                        <input type="text" name="search-query" id="search-box" placeholder="Search">
+                    </form>
+                </li>
+                <li class="category">
                     <form action="" id="sign-out-form">
                         <input type="submit" class="sign-out-button" value="Sign out">
                     </form>
                 </li>
-            </ul>
+            </ul>            
         </div>
-        <form action="" method="get" class="search-form">
-                <input type="text" name="search-query" id="search-box" placeholder="Search">
+        <form action="" method="get" id="main-search-form" class="search-form">
+            <input type="text" name="search-query" id="search-box" placeholder="Search">
         </form>
         <form action="" class="sign-out-desktop-form">
             <input type="submit" class="sign-out-button-desktop" value="Sign out">

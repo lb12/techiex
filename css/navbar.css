@@ -68,6 +68,10 @@
     opacity: 1;
 }
 
+#secondary-search-form {
+    display: none;
+}
+
 .categories {
     list-style: none;
     padding-left: 1.2rem;
@@ -102,6 +106,43 @@
 
 
 /* Media queries */
+
+/* Search form dissapears of the top navbar and appears on left menu and logo is centered*/
+@media all and (max-width: 320px) { 
+    #main-search-form {
+        display: none;
+    }
+
+    #secondary-search-form {
+        display: flex;
+        flex: unset;
+        justify-content: flex-start;
+    }
+
+    #secondary-search-form > input[type='text'] {
+        width: 80%;
+        height: 2rem;
+        margin: 0;
+        border: 1px solid black;
+        padding: .5rem 0rem .5rem .5rem;
+        background-color: var(--letter-color);
+        color: var(--background-color);
+    }
+
+    #search-box::placeholder {
+        color: var(--background-color);
+        opacity: 1;
+    }
+
+    .logo-section {
+        margin-left: 0;
+        width: 100%;        
+    }
+
+    .logo-letter {
+        font-size: 2.8rem;
+    }
+}
 
 /* ~Tablet */
 @media all and (min-width: 480px) {
