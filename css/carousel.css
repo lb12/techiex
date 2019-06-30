@@ -124,6 +124,7 @@
     }
 
     .card-info-icon {
+        min-width: 2.5rem;
         max-width: 2.7rem;
         flex: 0 0 10%;
         margin-right: 1rem;
