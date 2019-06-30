@@ -108,7 +108,7 @@
 /* Media queries */
 
 /* Search form dissapears of the top navbar and appears on left menu and logo is centered*/
-@media all and (max-width: 320px) { 
+@media all and (max-width: 330px) { 
     #main-search-form {
         display: none;
     }
@@ -247,6 +247,7 @@
     }
 }
 
+/* RWD of navbar and don't let items wrap */
 @media all and (min-width: 991px) {
     .category a {
         padding: 1.8rem 1.5rem 1.5rem 1.5rem;
