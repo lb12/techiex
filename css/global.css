@@ -1,10 +1,75 @@
+/* Fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 @font-face {
     src: url('../fonts/BebasNeue-Regular.ttf');
-    font-family: Bebas-Neue;
+    font-family: 'Bebas-Neue';
 }
 
 * {
-  font-family: Quicksand;
+  font-family: 'Quicksand';
 }
+
+/* Variables */
+:root {
+    --background-color: #272424;
+    --letter-color: #fff;
+    --main-color: #0080ff;
+    --hover-color: #42a1ff;
+}
+
+
+/* START: Background */
+
+body {
+    background-color: var(--background-color);
+    color: var(--letter-color);
+}
+
+/* END: Background */
+
+/* START: Logo section */
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    text-shadow: 3px 3px #000000;
+    user-select: none;
+    margin: 4.5rem 0 3rem 0;
+}
+
+.logo-letter {
+    font-family: 'Bebas-Neue';
+    margin: 0;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+}
+/* Give letters a Netflix style (test it)...
+.letter-t-logo {   
+    font-size: 100px;
+}
+.letter-e-logo {   
+    font-size: 90px;
+    margin-top:2px;
+}
+.letter-c-logo {    
+    font-size: 85px;
+    margin-top:2px;
+}
+.letter-h-logo {    
+    font-size: 80px;
+    margin-top: 4px;
+}
+.letter-i-logo {    
+    font-size: 85px;
+    margin-top:2px;
+}
+.letter-x-logo {   
+    font-size: 100px;
+}
+*/
+
+/* END: Logo section */
