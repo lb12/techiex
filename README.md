@@ -17,8 +17,8 @@ This project is part of the HTML & CSS3 Basics Final Practice.
 * **The Social Network**: https://movieposters2.com/The-Social-Network-movie-poster_706011.html
 * **Steve Jobs**: http://ledoyunlike.com/steve-jobs-2015-pelicula-subtitulos-espanol/
 * **The imitation game**: https://itunes.apple.com/au/movie/the-imitation-game/id956678573
-* **John Wick**: https://images-na.ssl-images-amazon.com/images/I/A1tcuOfZlWL._SY445_.jpg
-* **Equilibrium**: https://lascronicasdedeckard.com/critica-de-equilibrium-la-cinta-perdida/
+* **John Wick**: https://www.amazon.co.uk/John-Wick-DVD-Keanu-Reeves/dp/B00VTPAMEO
+* **Equilibrium**: https://www.amazon.co.uk/Equilibrium-DVD-Christian-Bale/dp/B0000ABPLG/ref=sr_1_2
 
 *Series cover*:<br>
 * **Silicon Valley**: http://www.patriarchrecordings.com/portfolio/fs-hundred-grand-feat-silicon-valley/
