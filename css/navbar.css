@@ -165,7 +165,9 @@
 
     .category a {
         /* padding: 46px 1rem; */
-        padding: 1.5rem;
+        /* padding: 1.5rem; */ /* Esta es buena */
+        padding: .8rem;
+        padding: 1.8rem .8rem 1.5rem .8rem;
     }
 
     .category a:hover {
@@ -177,7 +179,8 @@
     }
 
     .search-form {
-        flex: none;
+        flex-grow: 0;
+        flex-basis: 10%;
     }
 
     #search-box {
@@ -202,5 +205,11 @@
 
     .sign-out-button-desktop:hover {
         background-color: var(--hover-color);
+    }
+}
+
+@media all and (min-width: 991px) {
+    .category a {
+        padding: 1.8rem 1.5rem 1.5rem 1.5rem;
     }
 }
