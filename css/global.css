@@ -35,7 +35,7 @@ body {
 .logo-section {
     display: flex;
     justify-content: center;
-    color: var(--main-color); /* --  color: #1E368A; */
+    color: var(--main-color);
     text-shadow: 3px 3px #000000;
     user-select: none;
     margin: 4.5rem 0 3rem 0;

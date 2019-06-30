@@ -65,7 +65,7 @@
 
 #search-box::placeholder {
     color: var(--letter-color);
-    opacity: 1; /* Firefox */
+    opacity: 1;
 }
 
 .categories {
@@ -164,8 +164,6 @@
     }
 
     .category a {
-        /* padding: 46px 1rem; */
-        /* padding: 1.5rem; */ /* Esta es buena */
         padding: .8rem;
         padding: 1.8rem .8rem 1.5rem .8rem;
     }
