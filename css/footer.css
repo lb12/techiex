@@ -130,6 +130,16 @@
 
 /* Media queries */
 
+/* Social media buttons wrap with very low width devices */
+@media all and (max-width: 330px) { 
+    .social-list {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 /* ~Tablet */
 @media all and (min-width: 480px) {
     .footer {
