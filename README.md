@@ -1,7 +1,7 @@
 # TECHIEX
 **Techiex** is a simple imitation of Netflix page.
 
-This project is part of the HTML & CSS3 Basics Final Practice.
+This project is part of the HTML & CSS3 Basics Final Practice of the Full Stack Web Developer Bootcamp Keepcoding.
 
 
 ## Credits
