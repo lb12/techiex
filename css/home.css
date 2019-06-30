@@ -72,7 +72,7 @@
     background-size: 1rem;
     background-position: .5rem .4rem;
     padding: .4rem .6rem .3rem 2rem;
-
+    
     font-weight: bold;
 }
 
@@ -164,6 +164,18 @@
         padding-left: 2.3rem;
         background-size: 1.2rem;
         background-position-x: .8rem;
+    }
+
+    .scale-up-button {
+        transition: all .2s ease-in-out;
+    }
+    
+    .scale-up-button:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     .like-movie-button {
