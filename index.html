@@ -24,8 +24,20 @@
         </h1>
       </header>
       <form action="home.html">
-        <input type="email" class="form-text-input" placeholder="E-mail address" required>
-        <input type="password" class="form-text-input" placeholder="Password" required>
+
+
+        <!-- <input type="email" class="form-text-input" placeholder="E-mail address" required> -->
+
+        <fieldset>
+          <input id="username" name="username" type="text" autocomplete="off" required class="form-text-input">
+          <label for="username">E-mail address</label>
+        </fieldset>
+        <fieldset>
+          <input id="password" name="password" type="password" autocomplete="off" required class="form-text-input">
+          <label for="password">Password</label>
+        </fieldset>
+
+        <!-- <input type="password" class="form-text-input" placeholder="Password" required> -->
         <div class="login-extra">
           <div class="login-remember-container">
             <input type="checkbox" name="" id="remember-checkbox" class="remember-item" style="vertical-align: middle;">
