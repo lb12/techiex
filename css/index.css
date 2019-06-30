@@ -66,9 +66,9 @@ form fieldset input:focus + label {
     font-weight: bold;
     font-size: .8rem;
     -webkit-transform: translate3d(0, -1.5rem, 0);
-    -moz-transition: translate3d(0, -1.5rem, 0);
-    -o-transition: translate3d(0, -1.5rem, 0);
-    -ms-transition: translate3d(0, -1.5rem, 0);
+    -moz-transform: translate3d(0, -1.5rem, 0);
+    -o-transform: translate3d(0, -1.5rem, 0);
+    -ms-transform: translate3d(0, -1.5rem, 0);
     transform: translate3d(0, -1.5rem, 0);
 }
 
